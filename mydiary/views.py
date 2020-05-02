@@ -46,7 +46,7 @@ def edit(request,index):
             post.author = request.user
             post.published_date = timezone.now
             post.save()
-            return redirect('detail', pk=post.pk)#####변경해야 돌아감!
+            return redirect('detail', pk=post.pk)
     else:
         form = ContentForm(instance=post)
     return render(request, 'mydiary/edit.html', {'form':form})
