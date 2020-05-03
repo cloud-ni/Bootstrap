@@ -4,3 +4,39 @@ button:focus{
 .navbar-dark .navbar-toggler{
     border: none;
 }
+
+#home-img1{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/coding.jpg);
+}
+#home-img2{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/cutelion.jpg);
+ background-position: center 20%;
+}
+#home-img3{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/sglikelion.jpg);
+}
+.home-img-display{
+    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-caption-display{
+    top: 37%;
+}
+
+.posting-header{
+    padding: 120px 0;
+    text-align: center;
+}
+
+.posting-en{
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.posting-h{
+    font-size: 2.5em;
+    line-height: 1.5;
+}
