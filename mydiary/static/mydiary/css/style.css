@@ -1,24 +1,26 @@
 @font-face { font-family: 'Recipekorea'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 *{
     font-family: 'Recipekorea', sans-serif;
 }
+
 .navbar-dark .navbar-toggler{
-    border: none !important;
+    border: none;
 }
 button:focus{
-    outline:none !important;
+    outline:none;
 }
 
 #home-img1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/coding.jpg);
-   }
-   #home-img2{
+}
+#home-img2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/cutelion.jpg);
     background-position: center 20%;
-   }
-   #home-img3{
+}
+#home-img3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/sglikelion.jpg);
-   }
+}
 .home-img-display{
     height: 90vh;
     background-position:center center;
